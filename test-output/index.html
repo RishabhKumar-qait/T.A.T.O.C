@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\rishabh.kumar\AppData\Local\Temp\testng-eclipse-858090394\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Advanced_Course.Advance" hash-for-method="Advance_cource_move_further">Advance_cource_move_further</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Basic.Basic_automation" hash-for-method="Basic_test">Basic_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Advanced_Course.Advance" hash-for-method="File_handle_dat_file_download">File_handle_dat_file_download</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Advanced_Course.Advance" hash-for-method="File_handle_signature_submitted">File_handle_signature_submitted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Basic.Basic_automation" hash-for-method="Grid_gate_click_greenbox_frame_dungeon">Grid_gate_click_greenbox_frame_dungeon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Basic.Basic_automation" hash-for-method="Grid_gate_click_greenbox_test">Grid_gate_click_greenbox_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Basic.Basic_automation" hash-for-method="Grid_gate_click_redbox_test">Grid_gate_click_redbox_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Advanced_Course.Advance" hash-for-method="rest_service_to_generate_token">rest_service_to_generate_token</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Basic.Basic_automation" hash-for-method="tatoc_basic_drag">tatoc_basic_drag</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Basic.Basic_automation" hash-for-method="tatoc_basic_windows">tatoc_basic_windows</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Advanced_Course.Advance" hash-for-method="tatoc_database_connection_for_Name_and_PassKey">tatoc_database_connection_for_Name_and_PassKey</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Basic.Basic_automation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Basic_test">
+                  </a> <!-- Basic_test -->
+                  <span class="method-name">Basic_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Grid_gate_click_greenbox_frame_dungeon">
+                  </a> <!-- Grid_gate_click_greenbox_frame_dungeon -->
+                  <span class="method-name">Grid_gate_click_greenbox_frame_dungeon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Grid_gate_click_greenbox_test">
+                  </a> <!-- Grid_gate_click_greenbox_test -->
+                  <span class="method-name">Grid_gate_click_greenbox_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Grid_gate_click_redbox_test">
+                  </a> <!-- Grid_gate_click_redbox_test -->
+                  <span class="method-name">Grid_gate_click_redbox_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tatoc_basic_drag">
+                  </a> <!-- tatoc_basic_drag -->
+                  <span class="method-name">tatoc_basic_drag</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tatoc_basic_windows">
+                  </a> <!-- tatoc_basic_windows -->
+                  <span class="method-name">tatoc_basic_windows</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Advanced_Course.Advance</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Advance_cource_move_further">
+                  </a> <!-- Advance_cource_move_further -->
+                  <span class="method-name">Advance_cource_move_further</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="File_handle_dat_file_download">
+                  </a> <!-- File_handle_dat_file_download -->
+                  <span class="method-name">File_handle_dat_file_download</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="File_handle_signature_submitted">
+                  </a> <!-- File_handle_signature_submitted -->
+                  <span class="method-name">File_handle_signature_submitted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rest_service_to_generate_token">
+                  </a> <!-- rest_service_to_generate_token -->
+                  <span class="method-name">rest_service_to_generate_token</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tatoc_database_connection_for_Name_and_PassKey">
+                  </a> <!-- tatoc_database_connection_for_Name_and_PassKey -->
+                  <span class="method-name">tatoc_database_connection_for_Name_and_PassKey</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rishabh.kumar\AppData\Local\Temp\testng-eclipse-858090394\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Advanced_Course.Advance&quot;/&gt;
+      &lt;class name=&quot;Basic.Basic_automation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Grid_gate_click_greenbox_frame_dungeon')
+data.setCell(0, 2, 'Basic.Basic_automation')
+data.setCell(0, 3, 102634);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Advance_cource_move_further')
+data.setCell(1, 2, 'Advanced_Course.Advance')
+data.setCell(1, 3, 6708);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tatoc_basic_windows')
+data.setCell(2, 2, 'Basic.Basic_automation')
+data.setCell(2, 3, 4096);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'rest_service_to_generate_token')
+data.setCell(3, 2, 'Advanced_Course.Advance')
+data.setCell(3, 3, 2009);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Basic_test')
+data.setCell(4, 2, 'Basic.Basic_automation')
+data.setCell(4, 3, 1093);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tatoc_database_connection_for_Name_and_PassKey')
+data.setCell(5, 2, 'Advanced_Course.Advance')
+data.setCell(5, 3, 1015);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'File_handle_signature_submitted')
+data.setCell(6, 2, 'Advanced_Course.Advance')
+data.setCell(6, 3, 624);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Grid_gate_click_greenbox_test')
+data.setCell(7, 2, 'Basic.Basic_automation')
+data.setCell(7, 3, 379);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tatoc_basic_drag')
+data.setCell(8, 2, 'Basic.Basic_automation')
+data.setCell(8, 3, 280);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Grid_gate_click_redbox_test')
+data.setCell(9, 2, 'Basic.Basic_automation')
+data.setCell(9, 3, 229);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'File_handle_dat_file_download')
+data.setCell(10, 2, 'Advanced_Course.Advance')
+data.setCell(10, 3, 184);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Basic.Basic_automation</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">start_chrome</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Advanced_Course.Advance</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start_web_driver</span>
+                <span class="method-start">2673 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">Advance_cource_move_further</span>
+                <span class="method-start">4599 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Basic.Basic_automation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Basic_test</span>
+                <span class="method-start">11312 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Advanced_Course.Advance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">tatoc_database_connection_for_Name_and_PassKey</span>
+                <span class="method-start">12407 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Basic.Basic_automation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Grid_gate_click_redbox_test</span>
+                <span class="method-start">13423 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Advanced_Course.Advance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">rest_service_to_generate_token</span>
+                <span class="method-start">13653 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Basic.Basic_automation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Grid_gate_click_greenbox_test</span>
+                <span class="method-start">15664 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Advanced_Course.Advance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">File_handle_dat_file_download</span>
+                <span class="method-start">16046 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Basic.Basic_automation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Grid_gate_click_greenbox_frame_dungeon</span>
+                <span class="method-start">16231 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Advanced_Course.Advance</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">File_handle_signature_submitted</span>
+                <span class="method-start">118867 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Basic.Basic_automation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">tatoc_basic_drag</span>
+                <span class="method-start">119493 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tatoc_basic_windows</span>
+                <span class="method-start">119774 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

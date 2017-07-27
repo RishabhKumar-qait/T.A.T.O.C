@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="121214" started-at="2017-07-27T11:39:47Z" finished-at="2017-07-27T11:41:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="121214" started-at="2017-07-27T11:39:47Z" finished-at="2017-07-27T11:41:49Z">
+      <class name="Advanced_Course.Advance">
+        <test-method status="PASS" signature="start_web_driver()[pri:0, instance:Advanced_Course.Advance@754ba872]" name="start_web_driver" is-config="true" duration-ms="1926" started-at="2017-07-27T17:09:48Z" finished-at="2017-07-27T17:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_web_driver -->
+        <test-method status="PASS" signature="Advance_cource_move_further()[pri:1, instance:Advanced_Course.Advance@754ba872]" name="Advance_cource_move_further" duration-ms="6708" started-at="2017-07-27T17:09:49Z" finished-at="2017-07-27T17:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Advance_cource_move_further -->
+        <test-method status="PASS" signature="tatoc_database_connection_for_Name_and_PassKey()[pri:2, instance:Advanced_Course.Advance@754ba872]" name="tatoc_database_connection_for_Name_and_PassKey" duration-ms="1015" started-at="2017-07-27T17:09:57Z" finished-at="2017-07-27T17:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tatoc_database_connection_for_Name_and_PassKey -->
+        <test-method status="PASS" signature="rest_service_to_generate_token()[pri:3, instance:Advanced_Course.Advance@754ba872]" name="rest_service_to_generate_token" duration-ms="2009" started-at="2017-07-27T17:09:58Z" finished-at="2017-07-27T17:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rest_service_to_generate_token -->
+        <test-method status="PASS" signature="File_handle_dat_file_download()[pri:4, instance:Advanced_Course.Advance@754ba872]" name="File_handle_dat_file_download" duration-ms="184" started-at="2017-07-27T17:10:01Z" finished-at="2017-07-27T17:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- File_handle_dat_file_download -->
+        <test-method status="PASS" signature="File_handle_signature_submitted()[pri:5, instance:Advanced_Course.Advance@754ba872]" name="File_handle_signature_submitted" duration-ms="624" started-at="2017-07-27T17:11:44Z" finished-at="2017-07-27T17:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- File_handle_signature_submitted -->
+      </class> <!-- Advanced_Course.Advance -->
+      <class name="Basic.Basic_automation">
+        <test-method status="PASS" signature="start_chrome()[pri:0, instance:Basic.Basic_automation@e25b2fe]" name="start_chrome" is-config="true" duration-ms="2658" started-at="2017-07-27T17:09:45Z" finished-at="2017-07-27T17:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_chrome -->
+        <test-method status="PASS" signature="Basic_test()[pri:1, instance:Basic.Basic_automation@e25b2fe]" name="Basic_test" duration-ms="1093" started-at="2017-07-27T17:09:56Z" finished-at="2017-07-27T17:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Basic_test -->
+        <test-method status="PASS" signature="Grid_gate_click_redbox_test()[pri:2, instance:Basic.Basic_automation@e25b2fe]" name="Grid_gate_click_redbox_test" duration-ms="229" started-at="2017-07-27T17:09:58Z" finished-at="2017-07-27T17:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Grid_gate_click_redbox_test -->
+        <test-method status="PASS" signature="Grid_gate_click_greenbox_test()[pri:3, instance:Basic.Basic_automation@e25b2fe]" name="Grid_gate_click_greenbox_test" duration-ms="379" started-at="2017-07-27T17:10:01Z" finished-at="2017-07-27T17:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Grid_gate_click_greenbox_test -->
+        <test-method status="PASS" signature="Grid_gate_click_greenbox_frame_dungeon()[pri:4, instance:Basic.Basic_automation@e25b2fe]" name="Grid_gate_click_greenbox_frame_dungeon" duration-ms="102634" started-at="2017-07-27T17:10:01Z" finished-at="2017-07-27T17:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Grid_gate_click_greenbox_frame_dungeon -->
+        <test-method status="PASS" signature="tatoc_basic_drag()[pri:5, instance:Basic.Basic_automation@e25b2fe]" name="tatoc_basic_drag" duration-ms="280" started-at="2017-07-27T17:11:44Z" finished-at="2017-07-27T17:11:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tatoc_basic_drag -->
+        <test-method status="PASS" signature="tatoc_basic_windows()[pri:6, instance:Basic.Basic_automation@e25b2fe]" name="tatoc_basic_windows" duration-ms="4096" started-at="2017-07-27T17:11:45Z" finished-at="2017-07-27T17:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tatoc_basic_windows -->
+      </class> <!-- Basic.Basic_automation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
