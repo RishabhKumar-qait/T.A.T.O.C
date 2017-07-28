@@ -173,6 +173,7 @@ public class Advance {
 		driver.findElement(By.xpath("//input[@value='Proceed']")).click();
 		System.out.println("Clicked on proceed button");
 		Assert.assertEquals("End - T.A.T.O.C", driver.getTitle());
+		driver.close();
 
 	}
 
