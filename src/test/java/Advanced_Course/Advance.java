@@ -55,6 +55,7 @@ public class Advance {
 		cap.setCapability(ChromeOptions.CAPABILITY, options);
 
 		driver = new ChromeDriver(cap);
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 	}
 
