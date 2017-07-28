@@ -20,6 +20,7 @@ public class Basic_automation {
 	public void start_chrome() {
 		System.setProperty("webdriver.chrome.driver", "D:/selenium web driver/chromedriver.exe");
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 	}
 
